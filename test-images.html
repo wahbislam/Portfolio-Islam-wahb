@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Test</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        .test-item { margin: 20px 0; border: 1px solid #ccc; padding: 10px; }
+        .ok { background: #d4edda; }
+        .error { background: #f8d7da; }
+        img { max-width: 200px; border: 1px solid #000; }
+    </style>
+</head>
+<body>
+    <h1>مراجعة الصور - Image Path Test</h1>
+    
+    <h2>works.html Images:</h2>
+    <div id="test1" class="test-item">
+        <h3>Botola Pro (with spaces in path)</h3>
+        <img src="assets/images/projects/Botola%20Pro%201%20x%20Adidas%20Concept%20kits%202023_24%20__%20Behance/miniature.jpg" onerror="this.parentElement.className='test-item error'" onload="this.parentElement.className='test-item ok'">
+    </div>
+    
+    <div id="test2" class="test-item">
+        <h3>SPORT KORA</h3>
+        <img src="assets/images/projects/SPORT%20KORA/Cover-Be.png" onerror="this.parentElement.className='test-item error'" onload="this.parentElement.className='test-item ok'">
+    </div>
+    
+    <div id="test3" class="test-item">
+        <h3>Social media design</h3>
+        <img src="assets/images/projects/Social%20media%20design/01.png" onerror="this.parentElement.className='test-item error'" onload="this.parentElement.className='test-item ok'">
+    </div>
+    
+    <div id="test4" class="test-item">
+        <h3>LOGO</h3>
+        <img src="assets/images/projects/LOGO/bckk.png" onerror="this.parentElement.className='test-item error'" onload="this.parentElement.className='test-item ok'">
+    </div>
+    
+    <h2>Other Images:</h2>
+    <div id="test5" class="test-item">
+        <h3>Profile Image - About</h3>
+        <img src="assets/images/about/profile2.png" onerror="this.parentElement.className='test-item error'" onload="this.parentElement.className='test-item ok'">
+    </div>
+    
+    <div id="test6" class="test-item">
+        <h3>Logo</h3>
+        <img src="assets/images/logo.png" onerror="this.parentElement.className='test-item error'" onload="this.parentElement.className='test-item ok'">
+    </div>
+    
+    <div id="test7" class="test-item">
+        <h3>Favicon</h3>
+        <img src="assets/images/favicon.png" onerror="this.parentElement.className='test-item error'" onload="this.parentElement.className='test-item ok'">
+    </div>
+</body>
+</html>
